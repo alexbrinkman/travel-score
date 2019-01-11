@@ -1,12 +1,14 @@
 import React from 'react';
+import Score from './Score';
 
 class ScoreContainer extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <div>Score Container</div>;
+    return (
+      <div className="score-container">
+        <h2>Score Container</h2>
+        <Score />
+      </div>
+    );
   }
 }
 
